@@ -1,0 +1,7 @@
+# generated
+BINS=../searchInteger
+TRIALS=100
+LOW=4096
+HIGH=131072
+INCREMENT=*2
+EXTRAS=-p 1.0 -z 1000

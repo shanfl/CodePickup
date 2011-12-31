@@ -1,0 +1,3 @@
+Using configuration file 16384.rc...
+n,../../ValueBased/Qsort_straight,../../ValueBased/Qsort_2_6_6,../../ValueBased/Qsort_2_6_11,../../ValueBased/Insertion
+16384 ,0.0028,0.0025,0.0026,0.0011

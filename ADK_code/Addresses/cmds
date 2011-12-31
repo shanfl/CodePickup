@@ -1,0 +1,20 @@
+# gdb -batch -x cmds memory
+b 19
+run
+print (unsigned int) &inner 
+print (unsigned int) &temp
+print (unsigned int) &i
+up
+print (unsigned int) &argc
+print (unsigned int) &argv
+print (unsigned int) ar1
+print (unsigned int) &ar1
+print (unsigned int) ar2
+print (unsigned int) &ar2
+print (unsigned int) &i
+print (unsigned int) &j
+print (unsigned int) &f
+print (unsigned int) &main
+# &stdin and &malloc are interesting too, but leave out for now
+# since the value places it between the stack and the heap.
+

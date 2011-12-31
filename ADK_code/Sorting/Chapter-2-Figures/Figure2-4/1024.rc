@@ -1,0 +1,7 @@
+BINS=../../ValueBased/Qsort_straight ../../ValueBased/Qsort_2_6_6 ../../ValueBased/Qsort_2_6_11 ../../ValueBased/Insertion
+
+EXTRAS=-a -u 256,4
+TRIALS=10
+LOW=1024
+HIGH=1024
+INCREMENT=*2

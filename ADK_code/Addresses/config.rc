@@ -1,0 +1,8 @@
+# configure to use these BINS
+BINS=./alloc ./orderUp ./orderDown ./orderScattered
+
+# configure suite
+TRIALS=5
+LOW=1
+HIGH=128
+INCREMENT=+1

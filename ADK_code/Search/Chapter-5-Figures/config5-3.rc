@@ -1,0 +1,7 @@
+# generated
+BINS=../binarySearchFileInteger
+TRIALS=100
+LOW=524288
+HIGH=524288
+INCREMENT=*2
+EXTRAS=-p 1.0 -z 4096

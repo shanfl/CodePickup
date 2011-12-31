@@ -1,0 +1,10 @@
+Figure with a non-reachable vertex
+5 7 directed
+0,1,2
+1,2,3
+0,4,4
+2,4,1
+3,0,8
+2,3,5
+4,3,7
+
