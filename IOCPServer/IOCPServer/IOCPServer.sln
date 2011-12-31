@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IOCPServer", "IOCPServer.vcproj", "{F513057D-CB76-4984-B913-812DE9F2EAD0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "aa", "..\aa\aa.vcproj", "{ECD775A5-65F8-4545-928A-A08952DB87A5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F513057D-CB76-4984-B913-812DE9F2EAD0}.Debug.ActiveCfg = Debug|Win32
+		{F513057D-CB76-4984-B913-812DE9F2EAD0}.Debug.Build.0 = Debug|Win32
+		{F513057D-CB76-4984-B913-812DE9F2EAD0}.Release.ActiveCfg = Release|Win32
+		{F513057D-CB76-4984-B913-812DE9F2EAD0}.Release.Build.0 = Release|Win32
+		{ECD775A5-65F8-4545-928A-A08952DB87A5}.Debug.ActiveCfg = Debug|Win32
+		{ECD775A5-65F8-4545-928A-A08952DB87A5}.Debug.Build.0 = Debug|Win32
+		{ECD775A5-65F8-4545-928A-A08952DB87A5}.Release.ActiveCfg = Release|Win32
+		{ECD775A5-65F8-4545-928A-A08952DB87A5}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F513057D-CB76-4984-B913-812DE9F2EAD0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F513057D-CB76-4984-B913-812DE9F2EAD0}.Debug|Win32.Build.0 = Debug|Win32
+		{F513057D-CB76-4984-B913-812DE9F2EAD0}.Release|Win32.ActiveCfg = Release|Win32
+		{F513057D-CB76-4984-B913-812DE9F2EAD0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
