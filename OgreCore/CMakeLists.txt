@@ -1,0 +1,61 @@
+project(ogreTools)
+set(src 	
+    Singleton.h
+		OgreStringVector.h
+		OgreSharedPtr.h
+		OgreException.h
+		OgreException.cpp
+		OgreDataStream.h
+		OgreBitwise.h
+		flLogManager.h
+		flLogManager.cpp
+		flLog.h
+		flLog.cpp
+		DLLib.h
+		./OgreString/flString.h
+		./OgreString/flString.cpp
+		./OgreString/OgreUTFString.h
+		./OgreString/OgreUTFString.cpp
+		./OgreMath/asm_math.h
+    ./OgreMath/OgreAxisAlignedBox.cpp
+    ./OgreMath/OgreAxisAlignedBox.h
+    ./OgreMath/OgreMath.cpp
+    ./OgreMath/OgreMath.h
+    ./OgreMath/OgreMatrix3.cpp
+    ./OgreMath/OgreMatrix3.h
+    ./OgreMath/OgreMatrix4.cpp
+    ./OgreMath/OgreMatrix4.h
+    ./OgreMath/OgrePlane.cpp
+    ./OgreMath/OgrePlane.h
+    ./OgreMath/OgrePlaneBoundedVolume.h
+    ./OgreMath/OgreQuaternion.cpp
+    ./OgreMath/OgreQuaternion.h
+    ./OgreMath/OgreRay.h
+    ./OgreMath/OgreRectangle.h
+    ./OgreMath/OgreSphere.h
+    ./OgreMath/OgreVector2.cpp
+    ./OgreMath/OgreVector2.h
+    ./OgreMath/OgreVector3.cpp
+    ./OgreMath/OgreVector3.h
+    ./OgreMath/OgreVector4.cpp
+    ./OgreMath/OgreVector4.h
+    ./OgreMemory/AllocatorConfig.h
+    ./OgreMemory/MemAllcator.h
+    ./OgreMemory/NedAllocator.h
+    ./OgreMemory/NedPoolingAllocator.h
+    ./OgreMemory/OgreAlignedAllocator.cpp
+    ./OgreMemory/OgreAlignedAllocator.h
+    ./OgreMemory/OgreMemoryAllocatedObject.cpp
+    ./OgreMemory/OgreMemoryAllocatedObject.h
+    ./OgreMemory/OgreMemoryNedAlloc.cpp
+    ./OgreMemory/OgreMemoryNedAlloc.h
+    ./OgreMemory/OgreMemoryNedPooling.cpp
+    ./OgreMemory/OgreMemoryNedPooling.h
+    ./OgreMemory/OgreMemorySTLAllocator.h
+    ./OgreMemory/OgreMemoryStdAlloc.h
+    ./OgreMemory/OgreMemoryTracker.cpp
+    ./OgreMemory/OgreMemoryTracker.h
+    ./OgreMemory/StdAllocator.h
+)
+
+add_library(ogreTools STATIC ${src})

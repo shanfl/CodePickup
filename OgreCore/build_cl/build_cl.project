@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="build_cl" InternalType="Library">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00020001N0005Debug0000000000000001N0007Release000000000000]]>
+    </Plugin>
+  </Plugins>
+  <VirtualDirectory Name="OgreMemory">
+    <File Name="../OgreMemory/AllocatorConfig.h"/>
+    <File Name="../OgreMemory/MemAllcator.h"/>
+    <File Name="../OgreMemory/NedAllocator.h"/>
+    <File Name="../OgreMemory/NedPoolingAllocator.h"/>
+    <File Name="../OgreMemory/OgreAlignedAllocator.cpp"/>
+    <File Name="../OgreMemory/OgreAlignedAllocator.h"/>
+    <File Name="../OgreMemory/OgreMemoryAllocatedObject.cpp"/>
+    <File Name="../OgreMemory/OgreMemoryAllocatedObject.h"/>
+    <File Name="../OgreMemory/OgreMemoryNedAlloc.cpp"/>
+    <File Name="../OgreMemory/OgreMemoryNedAlloc.h"/>
+    <File Name="../OgreMemory/OgreMemoryNedPooling.cpp"/>
+    <File Name="../OgreMemory/OgreMemoryNedPooling.h"/>
+    <File Name="../OgreMemory/OgreMemoryStdAlloc.h"/>
+    <File Name="../OgreMemory/OgreMemorySTLAllocator.h"/>
+    <File Name="../OgreMemory/OgreMemoryTracker.cpp"/>
+    <File Name="../OgreMemory/OgreMemoryTracker.h"/>
+    <File Name="../OgreMemory/StdAllocator.h"/>
+  </VirtualDirectory>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="OgreMath">
+    <File Name="../OgreMath/asm_math.h"/>
+    <File Name="../OgreMath/OgreAxisAlignedBox.cpp"/>
+    <File Name="../OgreMath/OgreAxisAlignedBox.h"/>
+    <File Name="../OgreMath/OgreMath.cpp"/>
+    <File Name="../OgreMath/OgreMath.h"/>
+    <File Name="../OgreMath/OgreMatrix3.cpp"/>
+    <File Name="../OgreMath/OgreMatrix3.h"/>
+    <File Name="../OgreMath/OgreMatrix4.cpp"/>
+    <File Name="../OgreMath/OgreMatrix4.h"/>
+    <File Name="../OgreMath/OgrePlane.cpp"/>
+    <File Name="../OgreMath/OgrePlane.h"/>
+    <File Name="../OgreMath/OgrePlaneBoundedVolume.h"/>
+    <File Name="../OgreMath/OgreQuaternion.cpp"/>
+    <File Name="../OgreMath/OgreQuaternion.h"/>
+    <File Name="../OgreMath/OgreRay.h"/>
+    <File Name="../OgreMath/OgreRectangle.h"/>
+    <File Name="../OgreMath/OgreSphere.h"/>
+    <File Name="../OgreMath/OgreVector2.cpp"/>
+    <File Name="../OgreMath/OgreVector2.h"/>
+    <File Name="../OgreMath/OgreVector3.cpp"/>
+    <File Name="../OgreMath/OgreVector3.h"/>
+    <File Name="../OgreMath/OgreVector4.cpp"/>
+    <File Name="../OgreMath/OgreVector4.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="OgreString">
+    <File Name="../OgreString/flString.cpp"/>
+    <File Name="../OgreString/flString.h"/>
+    <File Name="../OgreString/OgreUTFString.cpp"/>
+    <File Name="../OgreString/OgreUTFString.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="OgreCore">
+    <File Name="../DLLib.h"/>
+    <File Name="../flLog.cpp"/>
+    <File Name="../flLog.h"/>
+    <File Name="../flLogManager.cpp"/>
+    <File Name="../flLogManager.h"/>
+    <File Name="../OgreBitwise.h"/>
+    <File Name="../OgreDataStream.cpp"/>
+    <File Name="../OgreDataStream.h"/>
+    <File Name="../OgreException.cpp"/>
+    <File Name="../OgreException.h"/>
+    <File Name="../OgreSharedPtr.h"/>
+    <File Name="../OgreStringVector.h"/>
+    <File Name="../Singleton.h"/>
+  </VirtualDirectory>
+  <Settings Type="Static Library">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g" C_Options="-g" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="."/>
+        <Preprocessor Value="__GNUC__"/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="./Debug" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="" C_Options="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/libOgreTool.a" IntermediateDirectory="./Release" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>
