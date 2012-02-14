@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="openal" InternalType="Library">
+  <VirtualDirectory Name="OpenAL32">
+    <VirtualDirectory Name="Include">
+      <File Name="OpenAL32/Include/alAuxEffectSlot.h"/>
+      <File Name="OpenAL32/Include/alBuffer.h"/>
+      <File Name="OpenAL32/Include/alDatabuffer.h"/>
+      <File Name="OpenAL32/Include/alEffect.h"/>
+      <File Name="OpenAL32/Include/alError.h"/>
+      <File Name="OpenAL32/Include/alFilter.h"/>
+      <File Name="OpenAL32/Include/alListener.h"/>
+      <File Name="OpenAL32/Include/alMain.h"/>
+      <File Name="OpenAL32/Include/alSource.h"/>
+      <File Name="OpenAL32/Include/alState.h"/>
+      <File Name="OpenAL32/Include/alThunk.h"/>
+      <File Name="OpenAL32/Include/alu.h"/>
+      <File Name="OpenAL32/Include/bs2b.h"/>
+    </VirtualDirectory>
+    <File Name="OpenAL32/alAuxEffectSlot.c"/>
+    <File Name="OpenAL32/alBuffer.c"/>
+    <File Name="OpenAL32/alDatabuffer.c"/>
+    <File Name="OpenAL32/alEffect.c"/>
+    <File Name="OpenAL32/alError.c"/>
+    <File Name="OpenAL32/alExtension.c"/>
+    <File Name="OpenAL32/alFilter.c"/>
+    <File Name="OpenAL32/alListener.c"/>
+    <File Name="OpenAL32/alSource.c"/>
+    <File Name="OpenAL32/alState.c"/>
+    <File Name="OpenAL32/alThunk.c"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="freealut">
+    <VirtualDirectory Name="include">
+      <VirtualDirectory Name="AL">
+        <File Name="freealut/include/AL/alut.h"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="src">
+      <File Name="freealut/src/alutBufferData.c"/>
+      <File Name="freealut/src/alutCodec.c"/>
+      <File Name="freealut/src/alutError.c"/>
+      <File Name="freealut/src/alutInit.c"/>
+      <File Name="freealut/src/alutInputStream.c"/>
+      <File Name="freealut/src/alutInternal.h"/>
+      <File Name="freealut/src/alutLoader.c"/>
+      <File Name="freealut/src/alutOutputStream.c"/>
+      <File Name="freealut/src/alutUtil.c"/>
+      <File Name="freealut/src/alutVersion.c"/>
+      <File Name="freealut/src/alutWaveform.c"/>
+      <File Name="freealut/src/README"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Description/>
+  <Dependencies/>
+  <Settings Type="Static Library">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g" C_Options="-g" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="./Debug" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="" C_Options="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="./Release" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+  <VirtualDirectory Name="include">
+    <VirtualDirectory Name="AL">
+      <File Name="include/AL/al.h"/>
+      <File Name="include/AL/alc.h"/>
+      <File Name="include/AL/alext.h"/>
+      <File Name="include/AL/efx-creative.h"/>
+      <File Name="include/AL/efx.h"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Alc">
+    <File Name="Alc/ALc.c"/>
+    <File Name="Alc/alcConfig.c"/>
+    <File Name="Alc/alcEcho.c"/>
+    <File Name="Alc/alcModulator.c"/>
+    <File Name="Alc/alcReverb.c"/>
+    <File Name="Alc/alcRing.c"/>
+    <File Name="Alc/alcThread.c"/>
+    <File Name="Alc/alsa.c"/>
+    <File Name="Alc/ALu.c"/>
+    <File Name="Alc/bs2b.c"/>
+    <File Name="Alc/dsound.c"/>
+    <File Name="Alc/mixer.c"/>
+    <File Name="Alc/null.c"/>
+    <File Name="Alc/oss.c"/>
+    <File Name="Alc/panning.c"/>
+    <File Name="Alc/portaudio.c"/>
+    <File Name="Alc/pulseaudio.c"/>
+    <File Name="Alc/solaris.c"/>
+    <File Name="Alc/wave.c"/>
+    <File Name="Alc/winmm.c"/>
+  </VirtualDirectory>
+</CodeLite_Project>
