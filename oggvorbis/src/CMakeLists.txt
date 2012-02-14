@@ -1,0 +1,52 @@
+set(OGGVORBIS_SRC 
+                    analysis.c
+                    backends.h
+                    bitrate.c
+                    bitrate.h
+                    bitwise.c
+                    block.c
+                    books
+                    codebook.c
+                    codebook.h
+                    codec_internal.h
+                    envelope.c
+                    envelope.h
+                    floor0.c
+                    floor1.c
+                    framing.c
+                    highlevel.h
+                    info.c
+                    lookup.c
+                    lookup.h
+                    lookup_data.h
+                    lookups.pl
+                    lpc.c
+                    lpc.h
+                    lsp.c
+                    lsp.h
+                    mapping0.c
+                    masking.h
+                    mdct.c
+                    mdct.h
+                    misc.h
+                    modes
+                    os.h
+                    psy.c
+                    psy.h
+                    registry.c
+                    registry.h
+                    res0.c
+                    scales.h
+                    sharedbook.c
+                    smallft.c
+                    smallft.h
+                    #src.ini
+                    synthesis.c
+                    vorbisenc.c
+                    vorbisfile.c
+                    window.c
+                    window.h
+)
+include_directories(../include/ ./)
+
+add_library(oggvorbis STATIC ${OGGVORBIS_SRC})
